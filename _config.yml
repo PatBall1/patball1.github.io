@@ -1,4 +1,3 @@
-remote_theme: jekyll/minimal-mistakes
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+remote_theme: minima
+title: James G. C. Ball's research page
+description: Research and teaching site
