@@ -1,0 +1,4 @@
+remote_theme: jekyll/minimal-mistakes
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
