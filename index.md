@@ -28,12 +28,13 @@ Vincent, G., Verley, P., Brede, B., Delaitre, G., Maurent, E., **Ball, J. G. C.*
 
 ## Languages
 
-[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)]()
-[![R](https://img.shields.io/badge/r-black?style=for-the-badge&logo=r)]()
+[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://www.python.org/)
+[![R](https://img.shields.io/badge/r-black?style=for-the-badge&logo=r)](https://www.r-project.org/)
+[![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=mysql)](https://www.iso.org/standard/63555.html)
 
 
 ## Technologies
-[![GEDI](https://img.shields.io/badge/gedi-black?style=for-the-badge&logo=nasa)]()
+[![GEDI](https://img.shields.io/badge/gedi-black?style=for-the-badge&logo=nasa)](https://gedi.umd.edu/)
 
 
 ## Links
