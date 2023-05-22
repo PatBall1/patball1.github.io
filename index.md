@@ -26,6 +26,16 @@ Vincent, G., Verley, P., Brede, B., Delaitre, G., Maurent, E., **Ball, J. G. C.*
 
 [Unpicking the rhythms of the Amazon rainforest - Where I work: James Ball](https://www.nature.com/articles/d41586-021-00664-1) (2021), *Nature*. 591, 494
 
+## Languages
+
+[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)]()
+[![R](https://img.shields.io/badge/r-black?style=for-the-badge&logo=r)]()
+
+
+## Technologies
+[![GEDI](https://img.shields.io/badge/gedi-black?style=for-the-badge&logo=nasa)]()
+
+
 ## Links
 
 [Google Scholar](https://scholar.google.com/citations?user=7SNfHlwAAAAJ)
