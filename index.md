@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<sub>Conservation Research Institute and Department of Plant Sciences, University of Cambridge.<\sub>
+<sub>Conservation Research Institute and Department of Plant Sciences, University of Cambridge.</sub>
 
 Linking cutting edge AI computer vision techniques to remote sensing for tropical forest observation and monitoring.
 
