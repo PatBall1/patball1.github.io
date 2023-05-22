@@ -2,13 +2,43 @@
 layout: home
 ---
 
-This is my personal research website created using GitHub Pages.
+Conservation Research Institute and Department of Plant Sciences, University of Cambridge.
+
+Linking cutting edge AI computer vision techniques to remote sensing for tropical forest observation and monitoring.
+
+## Python packages
+
+[*detectree2*](https://github.com/PatBall1/detectree2) - Python package for automatic tree crown delineation based on Mask R-CNN
 
 ## Selected publications
 
-Ball, J.G.C., Hickman, S.H.M., Jackson, T.D., Koay, X.J., Hirst, J., Jay, W., Archer, M., Aubry-Kientz, M., Vincent, G. and Coomes, D.A. (2023),
-Accurate delineation of individual tree crowns in tropical forests from aerial RGB imagery using Mask R-CNN.
-*Remote Sens Ecol Conserv*. [https://doi.org/10.1002/rse2.332](https://doi.org/10.1002/rse2.332)
+Ball, J. G. C., Hickman, S. H., Jackson, T. D., Koay, X. J., Hirst, J., Jay, W., ... & Coomes, D. A. (2023). [Accurate delineation of individual tree crowns in tropical forests from aerial RGB imagery using Mask R‐CNN](https://zslpublications.onlinelibrary.wiley.com/doi/10.1002/rse2.332). *Remote Sensing in Ecology and Conservation*.
+
+Ball, J. G. C., Petrova, K., Coomes, D. A., & Flaxman, S. (2022). [Using deep convolutional neural networks to forecast spatial patterns of Amazonian deforestation](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13953). *Methods in Ecology and Evolution*, 13(11), 2622-2634.
+
+Aubry-Kientz, M., Laybros, A., Weinstein, B., **Ball, J. G. C.**, Jackson, T., Coomes, D., & Vincent, G. (2021). [Multisensor data fusion for improved segmentation of individual tree crowns in dense tropical forests](https://ieeexplore.ieee.org/document/9387530). *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 14, 3927-3936.
+
+Ball, J. G. C., Burgman, M. A., Goldman, E. D., & Lessmann, J. (2021). [Protecting biodiversity and economic returns in resource‐rich tropical forests](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/cobi.13534). Conservation Biology, 35(1), 263-273.
+
+Vincent, G., Verley, P., Brede, B., Delaitre, G., Maurent, E., **Ball, J. G. C.**, ... & Barbier, N. (2023). [Multi-sensor airborne lidar requires intercalibration for consistent estimation of light attenuation and plant area density](https://www.sciencedirect.com/science/article/pii/S003442572200548X). *Remote Sensing of Environment*, 286, 113442.
+
+## Media
+
+[Unpicking the rhythms of the Amazon rainforest - Where I work: James Ball](https://www.nature.com/articles/d41586-021-00664-1) (2021), *Nature*. 591, 494
+
+## Links
+
+[Google Scholar](https://scholar.google.com/citations?user=7SNfHlwAAAAJ)
+
+[ResearchGate](https://www.researchgate.net/profile/James-Ball)
+
+[Twitter](https://twitter.com/JgcBall)
+
+## Awards
+
+2017, AECOM Prize for outstanding overall academic performance (Imperial College London)
+
+2019, NERC PhD studentship
 
 ## Teaching
 
