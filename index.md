@@ -2,13 +2,13 @@
 layout: home
 ---
 
-Conservation Research Institute and Department of Plant Sciences, University of Cambridge.
+<sub>Conservation Research Institute and Department of Plant Sciences, University of Cambridge.<\sub>
 
 Linking cutting edge AI computer vision techniques to remote sensing for tropical forest observation and monitoring.
 
 ## Python packages
 
-[*detectree2*](https://github.com/PatBall1/detectree2) - Python package for automatic tree crown delineation based on Mask R-CNN
+[`detectree2`](https://github.com/PatBall1/detectree2) - Python package for automatic tree crown delineation based on Mask R-CNN
 
 ## Selected publications
 
@@ -34,11 +34,13 @@ Vincent, G., Verley, P., Brede, B., Delaitre, G., Maurent, E., **Ball, J. G. C.*
 
 [Twitter](https://twitter.com/JgcBall)
 
-## Awards
+## Prizes and awards
 
-2017, AECOM Prize for outstanding overall academic performance (Imperial College London)
+2022, Research Day Poster Presenter Award (Department of Plant Sciences, University of Cambridge)
 
 2019, NERC PhD studentship
+
+2017, AECOM Prize for outstanding overall academic performance (Imperial College London)
 
 ## Teaching
 
