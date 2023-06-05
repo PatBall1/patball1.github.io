@@ -14,7 +14,7 @@ Linking cutting edge AI computer vision techniques to remote sensing for tropica
 
 ## Python packages
 
-[`detectree2`](https://github.com/PatBall1/detectree2) - Python package for automatic tree crown delineation based on Mask R-CNN &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  [![gh_stars](https://img.shields.io/github/stars/PatBall1/detectree2?color=yellow&logo=github&style=flat-square)](https://github.com/PatBall1/detectree2) 
+[`detectree2`](https://github.com/PatBall1/detectree2) - Python package for automatic tree crown delineation based on Mask R-CNN &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  [![gh_stars](https://img.shields.io/github/stars/PatBall1/detectree2?color=yellow&logo=github&style=flat-square)](https://github.com/PatBall1/detectree2) 
 
 ## Selected publications
 
