@@ -90,6 +90,10 @@ University of Oxford
 
 Undergraduate supervision: Responses to Global Change, Natural Sciences Tripos, Part II, University of Cambridge.
 
+Janet Moore prize - nomination
+
+> *James has given clear and helpful supervisions and essay feedback. He’s instilled a confidence in my essay writing I have never had and I can’t stress how much that has affected my confidence going into my final exams. I feel that I am as well prepared as I could be for not just PL2 but other essay modules as well (e.g. ZM2 conservation science). His feedback focuses not just on the particular essay question but on essay writing technique for the module in general which has allowed me to improve in my essay writing each week despite changing between lecture series. With James’ supervision I have found myself enjoying writing essays each week! And the James’ supos always inspire conversations over new links within and between lecture series ideas.*
+
 <br>
 <div style="text-align: center;">
     <img src="img/DALLE_2023-05-28_robot_rainforest_tree.png" alt="Image" width="300">
