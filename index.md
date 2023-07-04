@@ -56,8 +56,14 @@ Vincent, G., Verley, P., Brede, B., Delaitre, G., Maurent, E., **Ball, J. G. C.*
 
 ## Consultancy
 
-I am available for consultancy work related to my research fields and expertise. My skills include utilizing advanced AI and computer vision techniques for tropical forest monitoring and remote sensing applications. My services can be beneficial for environmental consulting firms, governmental and non-governmental organizations, and businesses in sectors such as sustainable forestry, conservation, climate change mitigation, and ecological research. With an established track record in the application of cutting-edge technologies, I offer consultancy in project design, data analysis and interpretation, as well as the development and implementation of AI-based solutions tailored to your needs. If your organization requires support in these areas or has specific project needs, please feel free to [contact me](mailto:ball.jgc@gmail.com).
+I am available for consultancy work related to mapping forests and trees. My skills include utilizing advanced AI and computer vision techniques applied to remote sensing data for tropical forest tree detection and monitoring. My services can be beneficial for environmental consulting firms, governmental and non-governmental organizations, and businesses in sectors such as sustainable forestry, conservation, climate change mitigation, and ecological research. With an established track record in the application of cutting-edge technologies, I offer consultancy in project design, data analysis and interpretation, as well as the development and implementation of AI-based solutions tailored to your needs. If your organization requires support in these areas or has specific project needs, please feel free to [contact me](mailto:ball.jgc@gmail.com).
 
+
+<br>
+<div style="text-align: center;">
+    <img src="img/crown_map.png" alt="Image" width="700">
+    <figcaption>AI enabled automatic mapping of rainforest trees (Paracou, French Guiana)</figcaption>
+</div>
 
 ## Prizes and awards
 
