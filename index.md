@@ -74,6 +74,35 @@ I am available for consultancy work related to mapping forests and trees. My ski
 2017, AECOM Prize for outstanding overall academic performance (Imperial College London)
 
 
+## Supervision
+
+- **Thesis Title**: "Improving urban tree Management using high-resolution satellite data"
+  - **Student Name**: Andrés Zuñiga Gonzalez
+  - **Course**: MRes (AI4ER, Department of Plant Sciences)
+  - **University/Institution**: University of Cambridge
+  - **Year**: 2023
+
+- **Thesis Title**: "Analysing changes in tropical tall trees with machine learning, LiDAR, and RGB imagery"
+  - **Student Name**: Sebastian Hickman
+  - **Course**: MRes (AI4ER, Department of Plant Sciences)
+  - **University/Institution**: University of Cambridge
+  - **Year**: 2021
+
+- **Thesis Title**: "Forecasting deforestation using multispectral imagery time series via deep neural networks"
+  - **Student Name**: Katerina Petrova
+  - **Course**: M4R (Department of Mathematics)
+  - **University/Institution**: Imperial College London
+  - **Year**: 2019
+
+## Teaching
+
+Undergraduate supervision: Responses to Global Change, Natural Sciences Tripos, Part II, University of Cambridge.
+
+2023, Janet Moore Prize - nomination:
+
+> *James has given clear and helpful supervisions and essay feedback. He’s instilled a confidence in my essay writing I have never had and I can’t stress how much that has affected my confidence going into my final exams. I feel that I am as well prepared as I could be for not just PL2 but other essay modules as well (e.g. ZM2 conservation science). His feedback focuses not just on the particular essay question but on essay writing technique for the module in general which has allowed me to improve in my essay writing each week despite changing between lecture series. With James’ supervision I have found myself enjoying writing essays each week! And the James’ supos always inspire conversations over new links within and between lecture series ideas.*
+
+
 ## Education
 
 **PhD in Plant Sciences (AI and Remote Sensing)**\
@@ -90,15 +119,6 @@ Imperial College London
 2009 - 2014\
 University of Oxford
 
-
-
-## Teaching
-
-Undergraduate supervision: Responses to Global Change, Natural Sciences Tripos, Part II, University of Cambridge.
-
-2023, Janet Moore Prize - nomination:
-
-> *James has given clear and helpful supervisions and essay feedback. He’s instilled a confidence in my essay writing I have never had and I can’t stress how much that has affected my confidence going into my final exams. I feel that I am as well prepared as I could be for not just PL2 but other essay modules as well (e.g. ZM2 conservation science). His feedback focuses not just on the particular essay question but on essay writing technique for the module in general which has allowed me to improve in my essay writing each week despite changing between lecture series. With James’ supervision I have found myself enjoying writing essays each week! And the James’ supos always inspire conversations over new links within and between lecture series ideas.*
 
 <br>
 <div style="text-align: center;">
