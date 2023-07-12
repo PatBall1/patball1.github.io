@@ -76,7 +76,7 @@ I am available for consultancy work related to mapping forests and trees. My ski
 
 ## Supervision
 
-- **Thesis Title**: "Improving urban tree Management using high-resolution satellite data"
+- **Thesis Title**: "Improving urban tree management using high-resolution satellite data"
   - **Student Name**: Andrés Zuñiga Gonzalez
   - **Course**: MRes (AI4ER, Department of Plant Sciences)
   - **University/Institution**: University of Cambridge
