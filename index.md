@@ -78,13 +78,13 @@ I am available for consultancy work related to mapping forests and trees. My ski
 
 - **Thesis Title**: "Improving urban tree management using high-resolution satellite data"
   - **Student Name**: Andrés Zuñiga Gonzalez
-  - **Course**: MRes (AI4ER, Department of Plant Sciences)
+  - **Course**: MRes (AI4ER, Department of Earth Sciences)
   - **University/Institution**: University of Cambridge
   - **Year**: 2023
 
 - **Thesis Title**: "Analysing changes in tropical tall trees with machine learning, LiDAR, and RGB imagery"
   - **Student Name**: Sebastian Hickman
-  - **Course**: MRes (AI4ER, Department of Plant Sciences)
+  - **Course**: MRes (AI4ER, Department of Earth Sciences)
   - **University/Institution**: University of Cambridge
   - **Year**: 2021
 
