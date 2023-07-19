@@ -61,7 +61,7 @@ I am available for consultancy work related to mapping forests and trees. My ski
 
 <br>
 <div style="text-align: center;">
-    <img src="img/crown_map.png" alt="Image" width="700">
+    <img src="img/crown_map.png" alt="Image" width="800">
     <figcaption>AI enabled automatic mapping of rainforest trees (Paracou, French Guiana)</figcaption>
 </div>
 
