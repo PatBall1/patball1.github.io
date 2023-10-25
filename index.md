@@ -18,9 +18,11 @@ Linking cutting edge AI computer vision techniques to remote sensing for tropica
 
 ## Selected publications
 
-**Ball, J. G. C.**, Hickman, S. H., Jackson, T. D., Koay, X. J., Hirst, J., Jay, W., ... & Coomes, D. A. (2023). [Accurate delineation of individual tree crowns in tropical forests from aerial RGB imagery using Mask R‐CNN](https://zslpublications.onlinelibrary.wiley.com/doi/10.1002/rse2.332). *Remote Sensing in Ecology and Conservation*.
+**Ball, J. G. C.**, Hickman, S. H., Jackson, T. D., Koay, X. J., Hirst, J., Jay, W., ... & Coomes, D. A. (2023). [Accurate delineation of individual tree crowns in tropical forests from aerial RGB imagery using Mask R‐CNN](https://zslpublications.onlinelibrary.wiley.com/doi/10.1002/rse2.332). *Remote Sensing in Ecology and Conservation*, 9(5), 641-655.
 
 Brodie, J.F., Mohd-Azlan, J., Chen, C., Wearn, O., Deith, M., **Ball, J. G. C**., ... & M. Luskin. (2023). [Landscape-scale benefits of protected areas for tropical biodiversity](https://www.nature.com/articles/s41586-023-06410-z). *Nature*, 620, 807–812.
+
+Cao, Y., Ball, **J. G. C**., Coomes, D. A., Steinmeier, L., Knapp, N., Wilkes, P., ... & Jackson, T. D. (2023). [Benchmarking airborne laser scanning tree segmentation algorithms in broadleaf forests shows high accuracy only for canopy trees](https://www.sciencedirect.com/science/article/pii/S156984322300314X). _International Journal of Applied Earth Observation and Geoinformation_, 123, 103490.
 
 **Ball, J. G. C.**, Petrova, K., Coomes, D. A., & Flaxman, S. (2022). [Using deep convolutional neural networks to forecast spatial patterns of Amazonian deforestation](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13953). *Methods in Ecology and Evolution*, 13(11), 2622-2634.
 
