@@ -1,2 +1,2 @@
-# James G. C. Ball research
+# Dr James G. C. Ball research
 
