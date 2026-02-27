@@ -93,4 +93,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
   window.addEventListener('scroll', highlightNav, { passive: true });
+
+  // Live GitHub star count
+  const starEl = document.getElementById('detectree2-stars');
+  if (starEl) {
+    fetch('https://api.github.com/repos/PatBall1/detectree2')
+      .then(r => r.json())
+      .then(data => {
+        if (data.stargazers_count != null) {
+          starEl.textContent = data.stargazers_count.toLocaleString();
+        }
+      })
+      .catch(() => {});
+  }
 });
