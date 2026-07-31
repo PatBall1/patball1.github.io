@@ -6,43 +6,47 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   const html = document.documentElement;
 
-  // Navbar scroll effect
-  const handleScroll = () => {
-    if (window.scrollY > 50) {
-      navbar.classList.add('scrolled');
-    } else {
-      navbar.classList.remove('scrolled');
-    }
-  };
-  window.addEventListener('scroll', handleScroll, { passive: true });
-  handleScroll();
+  // Navbar scroll effect (skip on multipage notes; page-nav is always solid)
+  if (navbar && !navbar.classList.contains('page-nav')) {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+  }
 
   // Mobile nav toggle
-  navToggle.addEventListener('click', () => {
-    navToggle.classList.toggle('active');
-    navMenu.classList.toggle('active');
-    document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
-  });
-
-  // Close mobile nav on link click
-  navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      navToggle.classList.remove('active');
-      navMenu.classList.remove('active');
-      document.body.style.overflow = '';
+  if (navToggle && navMenu) {
+    navToggle.addEventListener('click', () => {
+      navToggle.classList.toggle('active');
+      navMenu.classList.toggle('active');
+      document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
     });
-  });
 
-  // Close mobile nav on outside click
-  document.addEventListener('click', (e) => {
-    if (navMenu.classList.contains('active') &&
-        !navMenu.contains(e.target) &&
-        !navToggle.contains(e.target)) {
-      navToggle.classList.remove('active');
-      navMenu.classList.remove('active');
-      document.body.style.overflow = '';
-    }
-  });
+    // Close mobile nav on link click
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // Close mobile nav on outside click
+    document.addEventListener('click', (e) => {
+      if (navMenu.classList.contains('active') &&
+          !navMenu.contains(e.target) &&
+          !navToggle.contains(e.target)) {
+        navToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+  }
 
   // Dark mode toggle
   const savedTheme = localStorage.getItem('theme');
@@ -52,12 +56,14 @@ document.addEventListener('DOMContentLoaded', () => {
     html.setAttribute('data-theme', 'dark');
   }
 
-  themeToggle.addEventListener('click', () => {
-    const current = html.getAttribute('data-theme');
-    const next = current === 'dark' ? 'light' : 'dark';
-    html.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
-  });
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  }
 
   // Intersection Observer for fade-in animations
   const fadeElements = document.querySelectorAll('.fade-in');

@@ -31,6 +31,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#software">Software</a></li>
           <li><a href="#publications">Publications</a></li>
+          <li><a href="notes/">Notes</a></li>
           <li><a href="#teaching">Teaching</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#consultancy">Contact</a></li>
@@ -87,18 +88,18 @@
         <div class="about-text">
           <h2 class="section-title">About</h2>
           <p>I am a tropical ecologist at the <strong>Conservation Research Institute</strong> and the <strong>Department of Plant Sciences</strong> at the University of Cambridge, working within the <a href="https://coomeslab.org/" target="_blank" rel="noopener">Forest Ecology and Conservation Group</a>.</p>
-          <p>My research bridges the spatial scale gap between field plots and satellites by making individual-tree demographic processes observable across landscapes using Earth-observation data. I develop deep learning methods for detecting and mapping individual trees from aerial imagery (<a href="https://github.com/PatBall1/detectree2" target="_blank" rel="noopener">detectree2</a>), identify tree species from hyperspectral and multi-temporal observations, and forecast deforestation patterns using convolutional neural networks. Alongside these methodological advances, I apply remote sensing to ecological and conservation questions &mdash; from landscape-scale impacts of protected areas to biodiversity modelling with structural lidar products. My fieldwork spans the tropical forests of French Guiana and Sumatra, Indonesia.</p>
+          <p>My research bridges the spatial scale gap between field plots and satellites by making individual-tree demographic processes observable across landscapes using Earth-observation data. I develop deep learning methods for detecting and mapping individual trees from aerial imagery (<a href="https://github.com/PatBall1/detectree2" target="_blank" rel="noopener">detectree2</a>), identify tree species from hyperspectral and multi-temporal observations, and apply geospatial foundation models such as <a href="https://arxiv.org/abs/2506.20380" target="_blank" rel="noopener">TESSERA</a> to map species and habitats from satellite time series with far fewer training labels. Alongside these methodological advances, I apply remote sensing to ecological and conservation questions &mdash; from landscape-scale impacts of protected areas to biodiversity modelling with structural lidar products. My fieldwork spans the tropical forests of French Guiana and Sumatra, Indonesia, with recent temperate-forest collaborations in Trentino, Italy.</p>
           <div class="about-stats">
             <div class="stat">
-              <span class="stat-number">480+</span>
+              <span class="stat-number">500+</span>
               <span class="stat-label">Citations</span>
             </div>
             <div class="stat">
-              <span class="stat-number">8</span>
+              <span class="stat-number">9</span>
               <span class="stat-label">h-index</span>
             </div>
             <div class="stat">
-              <span class="stat-number">19</span>
+              <span class="stat-number">22+</span>
               <span class="stat-label">Publications</span>
             </div>
           </div>
@@ -111,27 +112,45 @@
   <section class="section section-alt fade-in" id="software">
     <div class="container">
       <h2 class="section-title">Software</h2>
-      <div class="software-card">
-        <div class="software-header">
-          <div class="software-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      <div class="software-grid">
+        <div class="software-card">
+          <div class="software-header">
+            <div class="software-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div>
+              <h3 class="software-name">detectree2</h3>
+              <p class="software-meta">Python &middot; Mask R-CNN &middot; Detectron2</p>
+            </div>
+            <a href="https://github.com/PatBall1/detectree2" class="github-stars" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.771l-7.416 3.642 1.48-8.279L0 9.306l8.332-1.151z"/></svg>
+              <span id="detectree2-stars">248</span>
+            </a>
           </div>
-          <div>
-            <h3 class="software-name">detectree2</h3>
-            <p class="software-meta">Python &middot; Mask R-CNN &middot; Detectron2</p>
+          <p class="software-desc">Python package for automatic tree crown delineation based on the Detectron2 implementation of Mask R-CNN. Enables accurate identification and mapping of individual trees in tropical forests from aerial RGB imagery.</p>
+          <div class="software-links">
+            <a href="https://github.com/PatBall1/detectree2" class="btn btn-primary" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              View on GitHub
+            </a>
+            <a href="https://patball1.github.io/detectree2/" class="btn btn-outline" target="_blank" rel="noopener">Documentation</a>
           </div>
-          <a href="https://github.com/PatBall1/detectree2" class="github-stars" target="_blank" rel="noopener">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.771l-7.416 3.642 1.48-8.279L0 9.306l8.332-1.151z"/></svg>
-            <span id="detectree2-stars">229</span>
-          </a>
         </div>
-        <p class="software-desc">Python package for automatic tree crown delineation based on the Detectron2 implementation of Mask R-CNN. Enables accurate identification and mapping of individual trees in tropical forests from aerial RGB imagery.</p>
-        <div class="software-links">
-          <a href="https://github.com/PatBall1/detectree2" class="btn btn-primary" target="_blank" rel="noopener">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-            View on GitHub
-          </a>
-          <a href="https://patball1.github.io/detectree2/" class="btn btn-outline" target="_blank" rel="noopener">Documentation</a>
+        <div class="software-card">
+          <div class="software-header">
+            <div class="software-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div>
+              <h3 class="software-name">TESSERA / GeoTessera</h3>
+              <p class="software-meta">Geospatial foundation model &middot; Python</p>
+            </div>
+          </div>
+          <p class="software-desc">Co-developed geospatial foundation model producing label-efficient embeddings from Sentinel-1/2 time series (CVPR 2026). <a href="https://github.com/ucam-eo/geotessera" target="_blank" rel="noopener">GeoTessera</a> provides the open Python tooling for accessing and analysing embeddings.</p>
+          <div class="software-links">
+            <a href="https://arxiv.org/abs/2506.20380" class="btn btn-primary" target="_blank" rel="noopener">TESSERA paper</a>
+            <a href="https://github.com/ucam-eo/geotessera" class="btn btn-outline" target="_blank" rel="noopener">GeoTessera</a>
+          </div>
         </div>
       </div>
     </div>
@@ -146,9 +165,15 @@
       <div class="pub-year-group">
         <h3 class="pub-year">2026</h3>
         <article class="pub-entry first-author">
-          <p class="pub-authors"><strong>Ball, J. G. C.</strong>, Wicklein, J. A., Feng, Z., Knezevic, J., Jaffer, S., Atzberger, C., Dalponte, M., &amp; Coomes, D.</p>
-          <p class="pub-title"><a href="https://doi.org/10.64898/2026.02.23.707022" target="_blank" rel="noopener">Geospatial foundation models enable data-efficient tree species mapping in temperate montane forests</a></p>
-          <p class="pub-journal"><em>bioRxiv</em>, 2026.02.23.707022.</p>
+          <p class="pub-authors"><strong>Ball, J. G. C.</strong>, Wicklein, J. A., Feng, Z., Knezevic, J., Jaffer, S., Madhavapeddy, A., Atzberger, C., Dalponte, M., &amp; Coomes, D.</p>
+          <p class="pub-title"><a href="https://doi.org/10.1016/j.srs.2026.100466" target="_blank" rel="noopener">Geospatial foundation models enable data-efficient tree species mapping in temperate mountain forests</a></p>
+          <p class="pub-journal"><em>Science of Remote Sensing</em>, 14, 100466.</p>
+        </article>
+
+        <article class="pub-entry first-author">
+          <p class="pub-authors"><strong>Ball, J. G. C.</strong> et al.</p>
+          <p class="pub-title"><a href="https://doi.org/10.1101/2026.05.06.722428" target="_blank" rel="noopener">Phenological regularity, not functional traits, determines whether tropical tree species can be mapped from imaging spectroscopy</a></p>
+          <p class="pub-journal"><em>bioRxiv</em>, 2026.05.06.722428.</p>
         </article>
 
         <article class="pub-entry">
@@ -165,7 +190,7 @@
 
         <article class="pub-entry">
           <p class="pub-authors">Cotrina-Sanchez, A., Coomes, D. A., <strong>Ball, J.</strong>, Holcomb, A., Valentini, R., ...</p>
-          <p class="pub-title">The phenology of European forests as seen by MODIS Leaf Area Index and GEDI Plant Area Index: Toward an integrated approach</p>
+          <p class="pub-title"><a href="https://doi.org/10.1016/j.foreco.2026.123689" target="_blank" rel="noopener">The phenology of European forests as seen by MODIS Leaf Area Index and GEDI Plant Area Index: Toward an integrated approach</a></p>
           <p class="pub-journal"><em>Forest Ecology and Management</em>, 611, 123689.</p>
         </article>
       </div>
@@ -200,9 +225,9 @@
         </article>
 
         <article class="pub-entry">
-          <p class="pub-authors">Feng, Z., Atzberger, C., Jaffer, S., Knezevic, J., Sormunen, S., Young, R., ...</p>
+          <p class="pub-authors">Feng, Z., Atzberger, C., Jaffer, S., Knezevic, J., Sormunen, S., Young, R., ..., <strong>Ball, J. G. C.</strong>, ...</p>
           <p class="pub-title"><a href="https://arxiv.org/abs/2506.20380" target="_blank" rel="noopener">TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis</a></p>
-          <p class="pub-journal"><em>arXiv preprint</em> arXiv:2506.20380.</p>
+          <p class="pub-journal"><em>CVPR 2026</em> (to appear). Preprint: arXiv:2506.20380.</p>
         </article>
 
         <article class="pub-entry">
@@ -217,8 +242,8 @@
         <h3 class="pub-year">2024</h3>
         <article class="pub-entry first-author">
           <p class="pub-authors"><strong>Ball, J. G. C.</strong>, Jaffer, S., Laybros, A., Prieur, C., Jackson, T., Madhavapeddy, A., ...</p>
-          <p class="pub-title"><a href="https://doi.org/10.1101/2024.06.24.600405" target="_blank" rel="noopener">Harnessing temporal and spectral dimensionality to map and identify species of individual trees in diverse tropical forests</a></p>
-          <p class="pub-journal"><em>bioRxiv</em>, 2024.06.24.600405.</p>
+          <p class="pub-title"><a href="https://doi.org/10.1101/2024.06.24.600405" target="_blank" rel="noopener">Pushing the ceiling of species-level mapping in a hyperdiverse tropical forest with multi-temporal segmentation and airborne hyperspectral classification</a></p>
+          <p class="pub-journal"><em>bioRxiv</em>, 2024.06.24.600405 (v4, 2026).</p>
         </article>
       </div>
 
@@ -304,10 +329,17 @@
         </div>
         <div class="media-block">
           <h2 class="section-title">Media</h2>
-          <div class="media-card">
-            <span class="media-badge">Nature</span>
-            <h3><a href="https://www.nature.com/articles/d41586-021-00664-1" target="_blank" rel="noopener">Unpicking the rhythms of the Amazon rainforest &mdash; Where I work: James Ball</a></h3>
-            <p>(2021), <em>Nature</em>. 591, 494</p>
+          <div class="media-stack">
+            <div class="media-card">
+              <span class="media-badge">phys.org</span>
+              <h3><a href="https://phys.org/news/2026-07-faster-cheaper-world-forests-ai.html" target="_blank" rel="noopener">A faster, cheaper way to map the world&rsquo;s forests with AI</a></h3>
+              <p>(2026). Coverage of our <em>Science of Remote Sensing</em> paper on foundation-model species mapping.</p>
+            </div>
+            <div class="media-card">
+              <span class="media-badge">Nature</span>
+              <h3><a href="https://www.nature.com/articles/d41586-021-00664-1" target="_blank" rel="noopener">Unpicking the rhythms of the Amazon rainforest &mdash; Where I work: James Ball</a></h3>
+              <p>(2021), <em>Nature</em>. 591, 494</p>
+            </div>
           </div>
         </div>
       </div>

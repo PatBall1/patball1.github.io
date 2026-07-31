@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Late July research notes | Notes | Dr James G. C. Ball</title>
+  <meta name="description" content="Where the research programme sits after the Science of Remote Sensing paper, and what is next on tropical phenology and species mapping.">
+  <meta name="author" content="James G. C. Ball">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav class="navbar page-nav" id="navbar">
+    <div class="nav-container">
+      <a href="../" class="nav-logo">JGCB</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="../#about">About</a></li>
+          <li><a href="../#software">Software</a></li>
+          <li><a href="../#publications">Publications</a></li>
+          <li><a href="./" class="active">Notes</a></li>
+          <li><a href="../#teaching">Teaching</a></li>
+          <li><a href="../#consultancy">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-main">
+    <div class="container">
+      <article class="note-article">
+        <div class="note-meta">
+          <time class="note-date" datetime="2026-07-31">31 July 2026</time>
+          <a class="note-back" href="./">&larr; All notes</a>
+        </div>
+
+        <h1>Late July: foundation models, phenology manuscripts, and clearing the decks</h1>
+
+        <div class="note-body">
+          <p>A short research note rather than a full week diary. The main news this month was the <a href="2026-07-srs-paper.html">Science of Remote Sensing paper</a>; this is where the rest of the programme sits.</p>
+
+          <h2>Foundation models &rarr; ecology</h2>
+          <p>The Trentino work was the first ecological application I led with <a href="https://arxiv.org/abs/2506.20380" target="_blank" rel="noopener">TESSERA</a> embeddings. The useful lesson was not just accuracy: with a few percent of the training parcels you are already near the performance ceiling, so the scarce resource is good reference data, not more spectral feature engineering.</p>
+          <p>I want the next steps to stay ecological rather than purely methodological &mdash; transferring these embeddings to habitat and community maps, and asking how crown- and plot-level traits can become training signal at landscape scale.</p>
+
+          <h2>Tropical phenology and species mapping</h2>
+          <p>Two first-author phenology manuscripts from Paracou are close: one on canopy green-up preceding the light season, and one linking leaf-cycle frequency (not deciduousness alone) to growth. Alongside those, the hyperspectral / multi-temporal species-mapping strand continues &mdash; including a new preprint on <a href="https://doi.org/10.1101/2026.05.06.722428" target="_blank" rel="noopener">phenological regularity and spectral separability</a>, and an updated version of the <a href="https://doi.org/10.1101/2024.06.24.600405" target="_blank" rel="noopener">hyperdiverse species-mapping preprint</a>.</p>
+          <p>The through-line is the same as detectree2: make individual-tree and community processes observable beyond the plot, then use that to train models that scale.</p>
+
+          <h2>Software and open tools</h2>
+          <p><a href="https://github.com/PatBall1/detectree2" target="_blank" rel="noopener">detectree2</a> remains the main open package I maintain. On the foundation-model side, the Cambridge EO group&rsquo;s <a href="https://github.com/ucam-eo/geotessera" target="_blank" rel="noopener">GeoTessera</a> tooling is the practical entry point for embeddings. TESSERA itself is heading to CVPR 2026.</p>
+
+          <h2>Site housekeeping</h2>
+          <p>I finally added this Notes section to the research site and caught the homepage up with the SRS paper, the phenology preprint, and TESSERA&rsquo;s CVPR framing. Expect occasional notes when something ships or a research strand shifts &mdash; not a weekly cadence for its own sake.</p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-name">Dr James G. C. Ball</p>
+          <p class="footer-affiliation">University of Cambridge</p>
+        </div>
+        <p class="footer-copy">&copy; 2026 Dr James G. C. Ball. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

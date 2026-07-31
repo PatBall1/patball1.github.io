@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation models for tree species mapping | Notes | Dr James G. C. Ball</title>
+  <meta name="description" content="Our Trentino study on geospatial foundation models for tree species mapping is now out in Science of Remote Sensing.">
+  <meta name="author" content="James G. C. Ball">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav class="navbar page-nav" id="navbar">
+    <div class="nav-container">
+      <a href="../" class="nav-logo">JGCB</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="../#about">About</a></li>
+          <li><a href="../#software">Software</a></li>
+          <li><a href="../#publications">Publications</a></li>
+          <li><a href="./" class="active">Notes</a></li>
+          <li><a href="../#teaching">Teaching</a></li>
+          <li><a href="../#consultancy">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-main">
+    <div class="container">
+      <article class="note-article">
+        <div class="note-meta">
+          <time class="note-date" datetime="2026-07-12">12 July 2026</time>
+          <a class="note-back" href="./">&larr; All notes</a>
+        </div>
+
+        <h1>Foundation models for tree species mapping, now in <em>Science of Remote Sensing</em></h1>
+
+        <div class="note-body">
+          <p>Our paper on using geospatial foundation models to map tree species in temperate mountain forests is out in <em>Science of Remote Sensing</em>:</p>
+
+          <p><a href="https://doi.org/10.1016/j.srs.2026.100466" target="_blank" rel="noopener">Ball et al. (2026). Geospatial foundation models enable data-efficient tree species mapping in temperate mountain forests. <em>Science of Remote Sensing</em> 14, 100466.</a></p>
+
+          <p>There is also a <a href="https://phys.org/news/2026-07-faster-cheaper-world-forests-ai.html" target="_blank" rel="noopener">phys.org write-up</a> that captures the practical pitch well.</p>
+
+          <h2>What we asked</h2>
+          <p>Can pre-trained satellite embeddings &mdash; specifically <a href="https://arxiv.org/abs/2506.20380" target="_blank" rel="noopener">TESSERA</a> and Google&rsquo;s AlphaEarth &mdash; map tree species in messy, topographically complex forests better than conventional Sentinel composites, and can they do it with far fewer training labels?</p>
+          <p>We worked in Trentino (Italian Alps) with 18 species and species groups, parcel-level inventory labels that are often impure, and the usual mountain-forest complications: steep terrain, mixed stands, and scarce clean training data.</p>
+
+          <h2>What we found</h2>
+          <ul>
+            <li>Foundation-model embeddings outperform conventional multispectral baselines (weighted F1 about 0.83 vs 0.80).</li>
+            <li>Most of the accuracy is already there with roughly 5% of the training parcels &mdash; label efficiency is the headline result.</li>
+            <li>A compact neural net on the embeddings matters; a linear classifier on the same embeddings underperforms a neural net on ordinary composites.</li>
+            <li>Temporal transfer across years still hurts, especially for rare species.</li>
+          </ul>
+
+          <blockquote>
+            <p>&ldquo;Tessera is a democratizing force that brings satellite data to the masses.&rdquo;</p>
+          </blockquote>
+
+          <p>That line from the press piece is what I care about operationally: groups without huge compute can train on forest inventories against embeddings that already exist, rather than rebuilding a full EO pipeline from scratch.</p>
+
+          <h2>Why it matters for ecology</h2>
+          <p>Species mapping has long been bottlenecked by feature engineering and label scarcity. Foundation models shift the bottleneck toward the quality and design of reference data &mdash; which is where ecologists actually have leverage. That is the strand I want to push next: crown- and plot-level traits as training signal for landscape-scale transfer.</p>
+
+          <p>Huge thanks to Jana Wicklein, Michele Dalponte, Zhengpeng Feng, Jovana Knezevic, Sadiq Jaffer, Anil Madhavapeddy, Clement Atzberger, David Coomes, and the wider TESSERA team.</p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-name">Dr James G. C. Ball</p>
+          <p class="footer-affiliation">University of Cambridge</p>
+        </div>
+        <p class="footer-copy">&copy; 2026 Dr James G. C. Ball. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
